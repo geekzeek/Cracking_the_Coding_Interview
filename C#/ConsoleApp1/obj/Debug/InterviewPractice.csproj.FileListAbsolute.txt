@@ -1,0 +1,5 @@
+c:\users\zeeshan\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\InterviewPractice.exe.config
+c:\users\zeeshan\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\InterviewPractice.exe
+c:\users\zeeshan\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\InterviewPractice.pdb
+c:\users\zeeshan\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\InterviewPractice.exe
+c:\users\zeeshan\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\InterviewPractice.pdb

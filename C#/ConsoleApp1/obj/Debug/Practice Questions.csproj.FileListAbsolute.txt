@@ -1,0 +1,12 @@
+c:\users\zeeshan\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\Practice Questions.csprojResolveAssemblyReference.cache
+C:\Users\Zeeshan\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\Practice Questions.exe.config
+C:\Users\Zeeshan\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\Practice Questions.exe
+C:\Users\Zeeshan\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\Practice Questions.pdb
+C:\Users\Zeeshan\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\Practice Questions.exe
+C:\Users\Zeeshan\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\Practice Questions.pdb
+C:\Users\Zeeshan\Documents\GitHub\Cracking_the_Coding_Interview\C#\ConsoleApp1\bin\Debug\PracticeQuestions.exe.config
+C:\Users\Zeeshan\Documents\GitHub\Cracking_the_Coding_Interview\C#\ConsoleApp1\bin\Debug\PracticeQuestions.exe
+C:\Users\Zeeshan\Documents\GitHub\Cracking_the_Coding_Interview\C#\ConsoleApp1\bin\Debug\PracticeQuestions.pdb
+C:\Users\Zeeshan\Documents\GitHub\Cracking_the_Coding_Interview\C#\ConsoleApp1\obj\Debug\Practice Questions.csprojResolveAssemblyReference.cache
+C:\Users\Zeeshan\Documents\GitHub\Cracking_the_Coding_Interview\C#\ConsoleApp1\obj\Debug\PracticeQuestions.exe
+C:\Users\Zeeshan\Documents\GitHub\Cracking_the_Coding_Interview\C#\ConsoleApp1\obj\Debug\PracticeQuestions.pdb
