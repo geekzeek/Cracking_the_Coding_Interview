@@ -8,8 +8,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(ArraysAndStrings.isAnagram("taco", "coat"));
-        Console.WriteLine("Press any key to exit...");
+        
+
+        Console.WriteLine("Press any key to exit ...");
         Console.ReadKey();
     }
   

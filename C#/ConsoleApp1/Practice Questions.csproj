@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArraysAndStrings.cs" />
+    <Compile Include="StacksAndQueues.cs" />
     <Compile Include="LinkedLists.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
