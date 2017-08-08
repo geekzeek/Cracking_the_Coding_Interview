@@ -7,7 +7,82 @@ using System.Threading.Tasks;
 
 class StacksAndQueues
 {
+    // 3.2 How would you design a stack which, in addition to push and pop, also has a function min which returns the minimum element? 
+    // Push, pop and min should all operate in O(1) time.
+    class StackWithMin
+    {
+        class thisNode
+        {
+            public int value;
+            public int minBelow = int.MaxValue;
+        }
 
+        Stack<thisNode> thisStack = new Stack<thisNode>();
+
+        public void push(int value)
+        {
+            thisNode newNode = new thisNode();
+            newNode.value = value;
+            if (thisStack.Count == 0)
+            {
+                newNode.minBelow = value;
+            }
+            else
+            {
+                newNode.minBelow = Math.Min(value, thisStack.Peek().minBelow);
+            }
+            thisStack.Push(newNode);
+        }
+
+        public int pop()
+        {
+            return thisStack.Pop().value;
+        }
+
+
+        public int min()
+        {
+            return thisStack.Peek().minBelow;
+        }
+
+    }
+
+    // 3.5 Implement a MyQueue class which implements a queue using two stacks.
+    class MyQueue<T>
+    {
+        Stack<T> s1 = new Stack<T>();
+        Stack<T> s2 = new Stack<T>();
+
+        public void push(T value)
+        {
+            s1.Push(value);
+        }
+
+        public T pop()
+        {
+            if (s2.Count == 0) UpdateStacks();
+            return s2.Pop();
+        }
+
+        public T peek()
+        {
+            if (s2.Count == 0) UpdateStacks();
+            return s2.Peek();
+        }
+
+        public int Count()
+        {
+            return s1.Count + s2.Count;
+        }
+
+        private void UpdateStacks()
+        {
+            while (s1.Count < 0)
+            {
+                s2.Push(s1.Pop());
+            }
+        }
+    }
 }
 
 
