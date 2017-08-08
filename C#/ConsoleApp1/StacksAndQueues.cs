@@ -83,6 +83,27 @@ class StacksAndQueues
             }
         }
     }
+
+    // 3.6 Write a program to sort a stack in ascending order.You should not make any assumptions about how the stack is implemented.
+    // The following are the only functions that should be used to write this program: push | pop | peek | isEmpty.
+    
+    public Stack<T> SortStackAscending<T>(Stack<T> stack)
+    {
+        List<T> buffer = new List<T>();
+        while(stack.Count > 0) // equivalent to isEmpty()
+        {
+            buffer.Add(stack.Pop());
+        }
+
+        buffer.Sort();
+
+        while(buffer.Count > 0)
+        {
+            stack.Push(buffer.First());
+            buffer.Remove(buffer.First());
+        }
+        return stack;
+    }
 }
 
 
